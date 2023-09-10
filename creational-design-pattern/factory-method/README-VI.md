@@ -30,6 +30,14 @@ Dưới đây là một số mục đích chính của Factory Method trong desi
 
 Tóm lại, Factory Method là một design pattern quan trọng trong OOP giúp bạn quản lý quá trình tạo đối tượng một cách linh hoạt và dễ dàng mở rộng mã nguồn của bạn.
 
+## Khi nào thì sử dụng factory method
+1. **Khi bạn muốn tạo đối tượng mà loại đối tượng con cụ thể không được biết trước trong mã nguồn chính (client code)**: Factory Method cho phép bạn tạo đối tượng mà không cần biết concrete class (lớp cụ thể) nào sẽ được tạo. Điều này hữu ích khi bạn muốn giữ cho client code độc lập với các concrete class cụ thể và tạo tính linh hoạt trong việc cấu hình ứng dụng.
+2. **Khi bạn muốn mở rộng ứng dụng dễ dàng bằng cách thêm các lớp mới**: Factory Method làm cho việc mở rộng ứng dụng dễ dàng hơn bằng cách thêm các lớp con mới mà không cần sửa đổi mã nguồn hiện có. Bạn chỉ cần tạo một lớp factory mới cho lớp con mới và cấu hình client code để sử dụng factory mới này.
+3. **Khi bạn muốn tạo đối tượng dựa trên ngữ cảnh hoặc điều kiện cụ thể**: Factory Method cho phép bạn tạo đối tượng dựa trên điều kiện hiện tại hoặc ngữ cảnh của ứng dụng. Ví dụ, bạn có thể tạo một factory method để tạo đối tượng theo dựa vào ngôn ngữ hiện tại của ứng dụng.
+4. **Khi bạn muốn kiểm soát kiểu đối tượng được tạo**: Factory Method cho phép bạn áp dụng logic hoặc kiểm tra trước để quyết định loại đối tượng nào sẽ được tạo. Điều này giúp bạn kiểm soát và tùy chỉnh việc tạo đối tượng theo nhu cầu cụ thể của ứng dụng.
+5. **Khi bạn muốn tách biệt quá trình xây dựng đối tượng ra khỏi client code**: Factory Method tách biệt việc xây dựng đối tượng ra khỏi client code, giúp làm cho mã nguồn dễ đọc hơn và tránh sự phức tạp trong việc tạo đối tượng.
+
+>Tóm lại, bạn nên sử dụng Factory Method khi cần tạo đối tượng một cách linh hoạt, duy trì tính linh hoạt trong ứng dụng và giảm sự phụ thuộc vào lớp cụ thể.
 ## Running
 ```
 python main.py
