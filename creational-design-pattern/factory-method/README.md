@@ -1,7 +1,8 @@
 ## Source
 https://refactoring.guru/design-patterns/factory-method
 ### Important:
->Provides an interface for creating objects in a supper class, but allows subclasses to alter the type of objects that will be created
+>1. Provides an interface for creating objects in a supper class, but allows subclasses to alter the type of objects that will be created
+>2. Creates an instance of several derived classes
 ## Description
 
 ## Structure

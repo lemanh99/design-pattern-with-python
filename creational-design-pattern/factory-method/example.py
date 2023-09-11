@@ -48,14 +48,21 @@ class HTMLDialog(Dialog):
         return HTMLButton()
 
 
-def client_code(dialog: Dialog) -> None:
-    print(f"Client: Create button\n {dialog.create_button()}", end="")
+class ClientCode:
+    def __init__(self, dialog: Dialog):
+        self.dialog = dialog
+
+    def create_button(self):
+        print(f"Client: Create button\n {self.dialog.create_button()}", end="")
 
 
 if __name__ == "__main__":
     print("App: I am using window.")
-    client_code(WindowDialog())
+    window_dialog = WindowDialog()
+    client = ClientCode(window_dialog)
+    client.create_button()
     print("\n")
-
     print("App: I am using WEB.")
-    client_code(HTMLDialog())
+    html_dialog = HTMLDialog()
+    client = ClientCode(html_dialog)
+    client.create_button()
