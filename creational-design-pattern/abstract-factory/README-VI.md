@@ -1,6 +1,6 @@
 ## Source
 
-https://refactoring.guru/design-patterns/factory-method
+https://refactoring.guru/design-patterns/abstract-method
 
 ## Cốt lõi:
 
@@ -45,7 +45,7 @@ Các lợi ích chính của việc sử dụng abstract method trong design pat
 Tóm lại, abstract method là một cơ chế quan trọng trong design pattern để giúp tạo ra các hệ thống linh hoạt, dễ bảo trì
 và mở rộng.
 
-## Khi nào thì sử dụng factory method
+## Khi nào thì sử dụng abstract method
 
 1. **Khi bạn muốn định nghĩa một interface chung:** Khi có một nhóm lớp có cùng một interface chung, nhưng mỗi lớp con
    có cách triển khai riêng biệt, bạn có thể sử dụng abstract methods để định nghĩa interface và yêu cầu các lớp con
