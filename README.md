@@ -14,6 +14,12 @@ $ Design Pattern
 │       ├── README.md
 │       ├── README-VI.md
 │       ├── main.py
+│       ├── example.py
+│   ├── abstract-method
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
 └── README.md
 ```
 
