@@ -13,7 +13,7 @@ https://refactoring.guru/design-patterns/abstract-factory
 
 ## Structure
 
-![alt tag](abstract_method.png)
+![alt tag](abstract_factory.png)
 
 ## How to use
 
