@@ -11,7 +11,7 @@ Email: lexuanmanhdut101199@gmail.com
     - [Abstract Factory](creational-design-pattern/abstract-factory)
     - [Builder](creational-design-pattern/builder)
     - [Prototype](creational-design-pattern/prototype)
-    - Singleton
+    - [Singleton](creational-design-pattern/singleton)
 2. Structural Design Patterns
     - Adapter
     - Bridge
@@ -54,6 +54,11 @@ $ Design Pattern
 │       ├── main.py
 │       ├── example.py
 │   ├── prototype
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── singleton
 │       ├── README.md
 │       ├── README-VI.md
 │       ├── main.py

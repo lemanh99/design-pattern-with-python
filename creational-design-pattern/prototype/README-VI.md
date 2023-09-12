@@ -1,12 +1,10 @@
 ## Source
 
-https://refactoring.guru/design-patterns/builder
+https://refactoring.guru/design-patterns/singleton
 
 ## Cốt lõi:
 
-> Builder là một mẫu thiết kế sáng tạo cho phép bạn xây dựng đối tượng phức tạp bước từng bước. Mẫu thiết kế này cho
-> phép bạn tạo ra các loại và biểu diễn khác nhau của một đối tượng bằng cách sử dụng mã xây dựng chung.
-
+>
 ## Structure
 
 ![alt tag](prototype.png)
