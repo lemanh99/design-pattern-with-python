@@ -9,7 +9,7 @@ https://refactoring.guru/design-patterns/abstract-method
 
 ## Structure
 
-![alt tag](abstract_method.png)
+![alt tag](abstract_factory.png)
 
 Các bước tạo abstract method chính:
 
