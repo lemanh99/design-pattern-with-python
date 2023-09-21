@@ -1,6 +1,6 @@
 ## Source
 
-https://refactoring.guru/design-patterns/decorator
+https://refactoring.guru/design-patterns/facede
 
 ## Cốt lõi:
 
