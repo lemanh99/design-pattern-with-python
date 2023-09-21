@@ -12,14 +12,14 @@ Email: lexuanmanhdut101199@gmail.com
     - [Builder](creational-design-pattern/builder)
     - [Prototype](creational-design-pattern/prototype)
     - [Singleton](creational-design-pattern/singleton)
-2. Structural Design Patterns
-    - Adapter
-    - Bridge
-    - Composite
-    - Decorator
-    - Facade
-    - Flyweight
-    - Proxy
+2. [Structural Design Patterns](structural-design-pattern)
+    - [Adapter](structural-design-pattern/adapter)
+    - [Bridge](structural-design-pattern/bridge)
+    - [Composite](structural-design-pattern/composite)
+    - [Decorator](structural-design-pattern/decorator)
+    - [Facade](structural-design-pattern/facade)
+    - [Flyweight](structural-design-pattern/flyweight)
+    - [Proxy](structural-design-pattern/proxy)
 3. Behavior Design Patterns
     - Chain of Responsibility
     - Command
@@ -63,6 +63,43 @@ $ Design Pattern
 │       ├── README-VI.md
 │       ├── main.py
 │       ├── example.py
+├── structural-design-pattern
+│   ├── adapter
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── bridge
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── composite
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── decorator
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── facade
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── flyweight
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+│   ├── proxy
+│       ├── README.md
+│       ├── README-VI.md
+│       ├── main.py
+│       ├── example.py
+├── behavior-design-pattern
 └── README.md
 ```
 
