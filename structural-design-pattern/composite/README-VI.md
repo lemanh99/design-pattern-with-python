@@ -1,6 +1,6 @@
 ## Source
 
-https://refactoring.guru/design-patterns/bridge
+https://refactoring.guru/design-patterns/composite
 
 ## Cốt lõi:
 
@@ -9,7 +9,7 @@ https://refactoring.guru/design-patterns/bridge
 
 ## Structure
 
-![alt tag](adapter.png)
+![alt tag](composite.png)
 
 Các bước tạo một composite
 

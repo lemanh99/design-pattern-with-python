@@ -10,7 +10,7 @@ https://refactoring.guru/design-patterns/bridge
 
 ## Structure
 
-![alt tag](adapter.png)
+![alt tag](bridge.png)
 
 Các bước tạo một bridge
 
