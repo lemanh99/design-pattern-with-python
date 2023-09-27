@@ -1,0 +1,10 @@
+![alt tag](img.png)
+
+| Khái niệm   | Mục đích Sử dụng                        | Cách Sử dụng                                                                                                              | Ví dụ                                                                                |
+|-------------|-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Association | Để mô tả mối quan hệ giữa các đối tượng | Sử dụng thuộc tính hoặc phương thức để kết nối đối tượng khác.                                                            | Lớp `Person` và lớp `Address` có mối quan hệ thông qua thuộc tính `address`.         |
+| Aggregation | Để biểu diễn mối quan hệ tổng hợp       | Sử dụng thuộc tính để biểu diễn đối tượng tổng hợp và đối tượng con. Đối tượng con có thể tồn tại độc lập.                | Lớp `Library` tổng hợp nhiều lớp `Book`, và các `Book` có thể tồn tại độc lập.       |
+| Composition | Để biểu diễn mối quan hệ mạnh hơn       | Sử dụng thuộc tính để biểu diễn đối tượng tổng hợp và đối tượng con. Đối tượng tổng hợp phụ thuộc mạnh vào đối tượng con. | Lớp `Car` chứa lớp `Engine` và `Car` không thể tồn tại nếu không có `Engine`.        |
+| Implement   | Để triển khai một giao diện (interface) | Lớp triển khai cung cấp định nghĩa cho tất cả các phương thức trong giao diện đó.                                         | Lớp `Circle` implements giao diện `Shape` và triển khai phương thức `area()`.        |
+| Inheritance | Để chia sẻ và mở rộng code              | Lớp con kế thừa các thuộc tính và phương thức từ lớp cha.                                                                 | Lớp `Animal` là lớp cha của lớp `Dog`, và `Dog` kế thừa các thuộc tính của `Animal`. |
+| Dependency  | Để biểu diễn mối quan hệ sử dụng        | Sử dụng tham chiếu hoặc tham số để sử dụng đối tượng khác.                                                                | Lớp `Payment` có một phương thức sử dụng đối tượng của lớp `Bank` thông qua tham số. |
