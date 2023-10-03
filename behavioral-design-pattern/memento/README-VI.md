@@ -4,7 +4,8 @@ https://refactoring.guru/design-patterns/memento
 
 ## Cốt lõi:
 
->
+> Memento là một mẫu thiết kế hành vi cho phép bạn lưu và khôi phục trạng thái trước đó của một đối tượng mà không tiết
+> lộ chi tiết về cách thức triển khai của nó.
 
 ## Structure
 
@@ -12,17 +13,21 @@ https://refactoring.guru/design-patterns/memento
 
 Các bước tạo memento chính:
 
-1. **Xác định đối tượng gốc (Originator):** Đây là đối tượng mà bạn muốn lưu trạng thái của nó và khôi phục lại sau này. Đối
+1. **Xác định đối tượng gốc (Originator):** Đây là đối tượng mà bạn muốn lưu trạng thái của nó và khôi phục lại sau này.
+   Đối
    tượng gốc phải có một phương thức để tạo Memento và một phương thức để khôi phục trạng thái từ Memento.
 2. **Tạo Memento (Memento):** Định nghĩa một lớp Memento để lưu trạng thái của đối tượng gốc. Lớp Memento này cần có các
    thuộc tính để lưu trữ trạng thái và một cách để truy cập trạng thái đó (thường thông qua các phương thức get).
 3. **Xác định quản lý trạng thái (Caretaker):** Quản lý trạng thái là đối tượng chịu trách nhiệm lưu trữ và quản lý các
    Memento. Nó có thể là một lớp riêng biệt hoặc một phần của đối tượng gốc, tùy thuộc vào thiết kế.
-4. **Lưu trạng thái (Save State):** Khi bạn muốn lưu trạng thái của đối tượng gốc, bạn tạo một đối tượng Memento và truyền
+4. **Lưu trạng thái (Save State):** Khi bạn muốn lưu trạng thái của đối tượng gốc, bạn tạo một đối tượng Memento và
+   truyền
    trạng thái hiện tại của đối tượng gốc vào Memento này.
-5. **Lưu Memento vào quản lý trạng thái (Caretaker):** Sau khi bạn đã tạo Memento, bạn cần lưu trữ nó vào đối tượng quản lý
+5. **Lưu Memento vào quản lý trạng thái (Caretaker):** Sau khi bạn đã tạo Memento, bạn cần lưu trữ nó vào đối tượng quản
+   lý
    trạng thái (Caretaker). Quản lý trạng thái sẽ quản lý danh sách các Memento.
-6. **Khôi phục trạng thái (Restore State):** Khi bạn muốn khôi phục lại trạng thái của đối tượng gốc, bạn truy cập Memento
+6. **Khôi phục trạng thái (Restore State):** Khi bạn muốn khôi phục lại trạng thái của đối tượng gốc, bạn truy cập
+   Memento
    tương ứng từ quản lý trạng thái và sử dụng nó để khôi phục trạng thái của đối tượng gốc.
 
 ## Description
